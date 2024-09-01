@@ -121,22 +121,22 @@ const loot_bag_legendary = {
             }
         },
         8:{
-            chance:1,
+            chance:10,
             name:'Loot Bag legendary free',
             description:'do you need more loot bags?',
             drop:{
                 item:{
                     1:{id:"da:loot_bag_legendary", amount:3},
-                    2:{id:"da:loot_bag_common", amount:16},
+                    2:{id:"da:loot_bag_common", amount:10},
                     3:{id:"da:loot_bag_rare", amount:6},
-                    4:{id:"da:loot_bag_uncommon", amount:16},
+                    4:{id:"da:loot_bag_uncommon", amount:10},
                     5:{id:"da:loot_bag_epic", amount:4}
                 },
                 sound:'random.totem'
             }
         },
         9:{
-            chance:3,
+            chance:5,
             name:'Netherite tools',
             description:'do you need tools?',
             drop:{
@@ -155,10 +155,10 @@ const loot_bag_legendary = {
             description:'Do you want to upgrade or decorate your armor?',
             drop:{
                 item:{
-                    1:{id:"minecraft:netherite_upgrade_smithing_template", amount:1},
-                    2:{id:"minecraft:spire_armor_trim_smithing_template", amount:1},
-                    3:{id:"minecraft:wild_armor_trim_smithing_template", amount:1},
-                    4:{id:"minecraft:dune_armor_trim_smithing_template", amount:1}
+                    1:{id:"minecraft:netherite_upgrade_smithing_template", amount:4},
+                    2:{id:"minecraft:spire_armor_trim_smithing_template", amount:4},
+                    3:{id:"minecraft:wild_armor_trim_smithing_template", amount:4},
+                    4:{id:"minecraft:dune_armor_trim_smithing_template", amount:4}
                 }
             }
         }
